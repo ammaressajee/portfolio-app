@@ -1,0 +1,76 @@
+.resume {
+    margin-left: auto;
+    margin-bottom: 50px;
+    margin-right: auto;
+    display: block;
+    max-width: 1200px;
+    width: 100%;
+    border: 1.5px solid black;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.resume-btn {
+    display: flex;
+    width: 70%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: #4CAF50;
+    border: 2px solid black;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);}
+
+  
+.resume-btn:hover {
+    background-color: rgba(197, 196, 196, 0.822); 
+    color:black;
+  }
+
+  .resume-wrapper {
+    height: 85px;
+    color: black;
+    font-size: 35px;
+    text-align: center;
+    display: flex;
+    margin-bottom: 50px;
+    justify-content: center;
+    align-items: flex-end;
+    text-shadow: 2px 2px rgb(97, 95, 95);
+    font-family: cursive;
+    border: 2px solid black;
+    padding-bottom: 20px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    background-color: rgba(204, 200, 196, 0.877)
+  }
+
+  .resume-pad {
+      height: 30px;
+  }
+
+  @media only screen and (max-width: 1080px) {
+    .resume-wrapper {
+      font-size: 28px;
+      height: auto;
+      padding-top: 10px;
+    }
+  }
+
+  @media only screen and (max-width: 860px) {
+    .resume-wrapper {
+      font-size: 20px;
+      height: auto;
+      padding-top: 10px;
+      text-shadow: 1px 1px rgb(97, 95, 95);
+    }
+  }

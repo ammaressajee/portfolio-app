@@ -1,0 +1,55 @@
+
+.education-panel {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    
+}
+
+.photo {
+    margin-left: 10%;
+    width: 80%;
+    height: auto;
+}
+
+.work-header {
+    padding-top: 100px;
+    text-shadow: 1px 2px gray;
+}
+
+.work-cards {
+    height: auto   ;
+    min-width: auto;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+
+.carousel-indicators li {
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    margin: 10px;
+    text-indent: 0;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    background-color: #0000ff;
+    box-shadow: inset 1px 1px 1px 1px rgba(0,0,0,0.5);    
+}
+.carousel-indicators .active {
+    width: 48px;
+    height: 48px;
+    margin: 10px;
+    background-color: #65cae9;
+}
+
+.work-text {
+    padding-bottom: 70px;
+}
+
+.move-button {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
