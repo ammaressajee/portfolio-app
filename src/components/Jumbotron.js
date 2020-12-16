@@ -171,12 +171,13 @@ const JumbotronPage = () => {
                   Visit Website? &nbsp; <MDBIcon far icon="file" />
                 </Button2>
 
-              {/*   <Button2
+                <Button2
                   color="success"
                   className="waves-effect"
+                  link='/https://github.com/ammaressajee/portfolio-app'
                 >
                   View code on GitHub? &nbsp; <MDBIcon far icon="file" />
-                </Button2> */}
+                </Button2> 
               </div>
             </MDBCardBody>
           </MDBJumbotron>
