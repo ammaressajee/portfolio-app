@@ -1,7 +1,7 @@
 import React from 'react'
 import '../../App.css'
 import Footer from '../Footer';
-import Pdf from '../PDF/Ammar_Essajee_CV.pdf';
+import Pdf from '../PDF/Resume_2020_Ammar.pdf';
 import resume from '../../images/resume.jpg';
 import '../pages/Resume.css';
 import '../../App.css';
