@@ -6,7 +6,7 @@ import './Footer.css'
 function Footer() {
     return (
         <div className='footer-container'>
-            <section className='footer-subscription'>
+            {/* <section className='footer-subscription'>
                 <p className='footer-subscription-heading'>
                     Join the Adventure newsletter to receive our best vacation deals    
                 </p>    
@@ -59,19 +59,20 @@ function Footer() {
                         <Link to='/'>Terms of Service</Link>
                     </div>
                 </div>
-            </div> 
+            </div>  */}
+            <h3 style={{ color: 'white' }}>Thank you for visiting!</h3>
             <section className='socail-media'>
                 <div className='socail-media-wrap'>
                     <div className='footer-logo'>
                         <Link className='social-logo'>
-                            ESSAJEE &nbsp;<i className='fas fa-cannabis' />
+                            ESSAJEE &nbsp;<i className='fab fa-asymmetrik' />
                         </Link>
                     </div>
                     
                     <div className='social-icons'>
                         
                         <Link className='social-icon-link facebook' 
-                        to='/'
+                        to='/https://www.facebook.com/ammar.essajee'
                         target='_blank'
                         aria-label='Facebook'
                         >
@@ -79,7 +80,7 @@ function Footer() {
                         </Link>
 
                         <Link className='social-icon-link instagram' 
-                        to='/'
+                        to='/https://www.instagram.com/ammaressajee/'
                         target='_blank'
                         aria-label='Instagram'
                         >
@@ -87,7 +88,7 @@ function Footer() {
                         </Link>
 
                         <Link className='social-icon-link twitter' 
-                        to='/'
+                        to='/https://twitter.com/ammar_essajee'
                         target='_blank'
                         aria-label='Twitter'
                         >
@@ -95,7 +96,7 @@ function Footer() {
                         </Link>
 
                         <Link className='social-icon-link linkedin' 
-                        to='/'
+                        to='/https://www.linkedin.com/in/ammar-essajee-3242291a2'
                         target='_blank'
                         aria-label='LinkedIn'
                         >
@@ -103,7 +104,7 @@ function Footer() {
                         </Link>
 
                     </div>
-                    <small className='website-rights'>TRVL © 2020</small>
+                    <small className='website-rights'>Essajee 2020 ™</small>
                 </div>
             </section>
 

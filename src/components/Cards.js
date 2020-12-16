@@ -1,44 +1,42 @@
 import React from 'react'
 import CardItem from './CardItem';
 import './Cards.css';
-import cardpic1 from '../images/img-1.jpg';
-import cardpic2 from '../images/img-2.jpg';
-import cardpic3 from '../images/img-3.jpg';
-import cardpic4 from '../images/img-4.jpg';
-import cardpic5 from '../images/img-5.jpg';
-import cardpic6 from '../images/img-6.jpg';
-import cardpic7 from '../images/img-7.jpg';
-import cardpic8 from '../images/img-8.jpg';
-import cardpic9 from '../images/img-9.jpg';
+
+import Pic1 from '../images/essajee.png';
+import Pic2 from '../images/cryptography.jpg';
+import Pic3 from '../images/instagram.png';
+import Pic4 from '../images/stargazer.png';
+import Pic5 from '../images/linkedin.png';
+import Pic6 from '../images/facebook.png';
 
 function Cards() {
     return (
         <div className="cards">
-            <h1>Check out these EPIC destinations!</h1>
+            <h1>Check out some of my work!</h1>
             <div className="cards__container">
                 <div className="cards__wrapper">
                     <ul className="cards__items">
                         
-                        <CardItem 
-                        src={cardpic7}
-                        text="Explore the hidden waterfall deep inside the Amazon jungle"
-                        label="Adventure"
-                        path='/https://linkedin.com'
-                        />
-
-                        <CardItem 
-                        src={cardpic8}
-                        text="Explore the hidden waterfall deep inside the Amazon jungle"
-                        label="Adventure"
-                        path='/projects'
-                        />
-
                         
                         <CardItem 
-                        src={cardpic2}
-                        text="Explore the hidden waterfall deep inside the Amazon jungle"
-                        label="Adventure"
-                        path='/projects'
+                        src={Pic1}
+                        text="Take a look at 'Essajee.com' designed and developed by me!"
+                        label="Essajee.com"
+                        path='/https://essajee.com'
+                        />
+
+                        <CardItem 
+                        src={Pic4}
+                        text="Explore Stargazer: the weather app for astronomy enthusiasts!"
+                        label="Stargazer"
+                        path='/http://untitled-stargazer.herokuapp.com/weather/day/1'
+                        />                     
+                        
+                        <CardItem 
+                        src={Pic2}
+                        text="Visit my GitHub repository of crygraphic ciphers?"
+                        label="Ciphers"
+                        path='/https://github.com/ammaressajee/Applied-Cryptography'
                         />
 
                     </ul>
@@ -46,25 +44,25 @@ function Cards() {
                     <ul className="cards__items">
                         
                         <CardItem 
-                        src={cardpic9}
-                        text="Explore the hidden waterfall deep inside the Amazon jungle"
-                        label="Adventure"
-                        path='/projects'
+                        src={Pic5}
+                        text="Visit LinkedIn and take a look at my profile?"
+                        label="LinkedIn"
+                        path='/https://www.linkedin.com/in/ammar-essajee-3242291a2'
                         />
 
                         <CardItem 
-                        src={cardpic3}
-                        text="Explore the hidden waterfall deep inside the Amazon jungle"
-                        label="Adventure"
-                        path='/projects'
+                        src={Pic3}
+                        text="Visit Instagram and take a look at my profile?"
+                        label="Instagram"
+                        path='/https://www.instagram.com/ammaressajee/'
                         />
 
                         
                         <CardItem 
-                        src={cardpic4}
-                        text="Explore the hidden waterfall deep inside the Amazon jungle"
-                        label="Adventure"
-                        path='/projects'
+                        src={Pic6}
+                        text="Visit Facebook and take a look at my profile?"
+                        label="Facebook"
+                        path='/https://www.facebook.com/ammar.essajee'
                         />
 
                     </ul>

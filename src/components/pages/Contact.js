@@ -1,14 +1,19 @@
 import React from 'react';
 import '../../App.css';
 import Footer from '../Footer';
-
+import Page1 from '../../images/page2.jpg';
 
 function Contact() {
     return (
-        <div>
+        <div style={{
+            // backgroundImage: 'url(https://mdbootstrap.com/img/Photos/Others/gradient1.jpg)'
+            backgroundImage: `url(${Page1})`,
+          }}>
+            
             <h1 className='contact'>CONTACT ME</h1>
 
             <section className="my-5">
+
              
                 <div
                     id="map-container"

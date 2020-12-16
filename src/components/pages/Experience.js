@@ -9,6 +9,7 @@ import Pic2 from '../../images/web.jpg';
 import Pic3 from '../../images/car.jpg';
 import Pic4 from '../../images/stocks.jpg';
 import Pic5 from '../../images/virtusa.jpg';
+import Page1 from '../../images/page2.jpg'
 
 
 
@@ -24,7 +25,7 @@ const ColoredLine = ({ color }) => (
 
 function Experience() {
     return (
-        <div>
+        <div >
             <h1 className='experience'>EXPERIENCE</h1>
 
             <section className="my-5">
@@ -100,9 +101,13 @@ function Experience() {
                 </MDBRow>
             </section>
 
-            <ColoredLine color="gray"/>
+           
+            <div  style={{
+            backgroundImage: `url(${Page1})`,
+        
+          }}>
 
-            <h1 className="work-header"> Professional Experience:</h1>
+            <h1 className="work-header2"> Professional Experience:</h1>
 
 
             <MDBContainer className="work-cards">
@@ -206,7 +211,7 @@ function Experience() {
                 </MDBContainer>
 
 
-               
+               </div>
 
             <Footer />
         </div>

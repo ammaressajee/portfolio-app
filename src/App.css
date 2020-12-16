@@ -19,7 +19,7 @@
 }
 
 .projects {
-  background-image: url('/src/images/img-2.jpg');
+  background-image: url('/src/images/bg4.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -28,7 +28,7 @@
 }
 
 .experience {
-  background-image: url('/src/images/img-6.jpg');
+  background-image: url('/src/images/bg2.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -37,7 +37,7 @@
 }
 
 .contact {
-  background-image: url('/src/images/img-9.jpg');
+  background-image: url('/src/images/bg3.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -46,7 +46,7 @@
 }
 
 .sign-up {
-  background-image: url('/src/images/img-8.jpg');
+  background-image: url('/src/images/bg4.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;

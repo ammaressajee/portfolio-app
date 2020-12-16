@@ -16,7 +16,10 @@ const JumbotronPage = () => {
       <MDBContainer className="mt-5 text-center">
       <MDBRow>
         <MDBCol>
-          <MDBJumbotron className='border border-dark' style={{ backgroundImage: `url(https://mdbootstrap.com/img/Photos/Others/gradient1.jpg)` }}>
+          <MDBJumbotron className='border border-dark' style={{ backgroundImage: `url(https://mdbootstrap.com/img/Photos/Others/gradient1.jpg)`,
+        backgroundPosition: 'center',
+        backgroundSize: 'cover',
+        backgroundRepeat: 'no-repeat' }}>
             <MDBCardBody>
               <MDBCardTitle className="h2 white-text">
                 ESSAJEE.COM<br/><br/>
@@ -55,12 +58,12 @@ const JumbotronPage = () => {
                   Visit Website? &nbsp; <MDBIcon far icon="file" />
                 </Button2>
 
-                <Button2
+                {/* <Button2
                   color="success"
                   className="waves-effect"
                 >
                   View code on GitHub? &nbsp; <MDBIcon far icon="file" />
-                </Button2>
+                </Button2> */}
               </div>
             </MDBCardBody>
           </MDBJumbotron>
@@ -71,7 +74,10 @@ const JumbotronPage = () => {
     <MDBContainer className="mt-5 text-center">
       <MDBRow>
         <MDBCol>
-          <MDBJumbotron className='border border-dark' style={{ backgroundImage: `url(https://mdbootstrap.com/img/Photos/Others/gradient1.jpg)` }}>
+          <MDBJumbotron className='border border-dark' style={{ backgroundImage: `url(https://mdbootstrap.com/img/Photos/Others/gradient1.jpg)`,
+        backgroundPosition: 'center',
+        backgroundSize: 'cover',
+        backgroundRepeat: 'no-repeat' }}>
             <MDBCardBody>
               <MDBCardTitle className="h2 white-text">
                 STARGAZER<br/><br/>
@@ -112,6 +118,7 @@ const JumbotronPage = () => {
                 <Button2
                   color="success"
                   className="waves-effect"
+                  link="/https://github.com/alexfaucheux/CSC-405---Main-Project"
                 >
                   View code on GitHub? &nbsp; <MDBIcon far icon="file" />
                 </Button2>
@@ -125,7 +132,10 @@ const JumbotronPage = () => {
     <MDBContainer className="mt-5 text-center">
       <MDBRow>
         <MDBCol>
-          <MDBJumbotron className='border border-dark' style={{ backgroundImage: `url(https://mdbootstrap.com/img/Photos/Others/gradient1.jpg)` }}>
+          <MDBJumbotron className='border border-dark' style={{ backgroundImage: `url(https://mdbootstrap.com/img/Photos/Others/gradient1.jpg)`,
+        backgroundPosition: 'center',
+        backgroundSize: 'cover',
+        backgroundRepeat: 'no-repeat' }}>
             <MDBCardBody>
               <MDBCardTitle className="h2 white-text">
                 AMMAR ESSAJEE PORTFOLIO<br/><br/>
@@ -156,16 +166,17 @@ const JumbotronPage = () => {
                 <Button2
                   color="info"
                   className="waves-effect"
+                  link="/"
                 >
                   Visit Website? &nbsp; <MDBIcon far icon="file" />
                 </Button2>
 
-                <Button2
+              {/*   <Button2
                   color="success"
                   className="waves-effect"
                 >
                   View code on GitHub? &nbsp; <MDBIcon far icon="file" />
-                </Button2>
+                </Button2> */}
               </div>
             </MDBCardBody>
           </MDBJumbotron>
@@ -175,7 +186,10 @@ const JumbotronPage = () => {
 <MDBContainer className="mt-5 text-center">
       <MDBRow>
         <MDBCol>
-          <MDBJumbotron className='border border-dark' style={{ backgroundImage: `url(https://mdbootstrap.com/img/Photos/Others/gradient1.jpg)` }}>
+          <MDBJumbotron className='border border-dark' style={{ backgroundImage: `url(https://mdbootstrap.com/img/Photos/Others/gradient1.jpg)`,
+        backgroundPosition: 'center',
+        backgroundSize: 'cover',
+        backgroundRepeat: 'no-repeat' }}>
             <MDBCardBody>
               <MDBCardTitle className="h2 white-text">
                 NETHKEN VIRTUAL TOUR<br/><br/>
@@ -208,6 +222,7 @@ const JumbotronPage = () => {
                 <Button2
                   color="success"
                   className="waves-effect"
+                  link='/https://github.com/martinthebrock/graphicsdesignproject'
                 >
                   View code on GitHub? &nbsp; <MDBIcon far icon="file" />
                 </Button2>
@@ -252,6 +267,7 @@ const JumbotronPage = () => {
                 <Button2
                   color="success"
                   className="waves-effect"
+                  link='/https://github.com/ammaressajee/Applied-Cryptography'
                 >
                   View code on GitHub? &nbsp; <MDBIcon far icon="file" />
                 </Button2>
@@ -295,6 +311,7 @@ const JumbotronPage = () => {
                 <Button2
                   color="success"
                   className="waves-effect"
+                  link='/https://github.com/ammaressajee/Computer-Graphics'
                 >
                   View code on GitHub? &nbsp; <MDBIcon far icon="file" />
                 </Button2>

@@ -5,7 +5,7 @@ import Pdf from '../PDF/Ammar_Essajee_CV.pdf';
 import resume from '../../images/resume.jpg';
 import '../pages/Resume.css';
 import '../../App.css';
-import Bg1 from '../../images/red-drops.jpg'
+import Bg1 from '../../images/page2.jpg'
 
 
 
@@ -13,9 +13,7 @@ function Resume() {
     return (
         <div style={{
             backgroundImage: `url(${Bg1})`,
-            backgroundPosition: 'center',
-            backgroundSize: 'cover',
-            backgroundRepeat: 'no-repeat'
+           
           }} >
               <section className='resume-pad'></section>
               <section className='resume-wrapper'>Ammar Essajee: Resume (2020)</section>

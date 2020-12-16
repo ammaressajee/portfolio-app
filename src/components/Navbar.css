@@ -87,6 +87,14 @@
       position: relative;
     }
   
+    .navbar-logo {
+      margin: auto;
+      right: auto;
+      left: auto;
+      
+    }
+
+    
     .nav-menu {
       display: flex;
       flex-direction: column;
