@@ -1,0 +1,40 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "purchase_date": "04/09/2021",
+            "share_name": "AMZN",
+            "sale_date": "06/09/2021",
+            "num_shares": 75,
+            "share_price": 500,
+            "net_purchase": 540
+        },
+        {
+            "id": 2,
+            "purchase_date": "04/09/2021",
+            "share_name": "NTFLX",
+            "sale_date": "06/09/2021",
+            "num_shares": 435,
+            "share_price": 45345,
+            "net_purchase": 5453440
+        },
+        {
+            "id": 3,
+            "purchase_date": "04/09/2021",
+            "share_name": "APPL",
+            "sale_date": "06/09/2021",
+            "num_shares": 53,
+            "share_price": 543500,
+            "net_purchase": 543
+        },
+        {
+            "id": 4,
+            "purchase_date": "04/09/2021",
+            "share_name": "TSLA",
+            "sale_date": "06/09/2021",
+            "num_shares": 94,
+            "share_price": 43,
+            "net_purchase": 745
+        }
+    ]
+}

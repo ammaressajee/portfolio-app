@@ -9,6 +9,7 @@ import Experience from './components/pages/Experience';
 import SignUp from './components/pages/SignUp';
 import Contact from './components/pages/Contact';
 import Resume from './components/pages/Resume';
+import Stock from './components/pages/Stock';
 
 
 
@@ -21,6 +22,7 @@ function App() {
         <Route path='/' exact component={Home} />
         <Route path='/projects' exact component={Projects} />
         <Route path='/experience' exact component={Experience} />
+        <Route path='/stock' exact component={Stock} />
         <Route path='/contact-me' exact component={Contact} />
         <Route path='/sign-up' exact component={SignUp} />
         <Route path='/resume' exact component={Resume} />

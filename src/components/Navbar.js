@@ -59,14 +59,14 @@ function Navbar() {
                     </li>
 
                     <li className='nav-item'> 
-                        <Link to='/contact-me' className='nav-links' onClick={closeMobileMenu}>
-                            Contact Me
+                        <Link to='/stock' className='nav-links' onClick={closeMobileMenu}>
+                            Stock Calculator
                         </Link>
                     </li>
                     
                     <li className='nav-item'> 
-                        <Link to='/sign-up' className='nav-links-mobile' onClick={closeMobileMenu}>
-                            Sign Up
+                        <Link to='/contact-me' className='nav-links-mobile' onClick={closeMobileMenu}>
+                            Contact Me
                         </Link>
                     </li> 
                 </ul>
